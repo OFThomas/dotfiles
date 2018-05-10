@@ -11,7 +11,7 @@ dconf load /org/gnome/terminal/ < gnome_terminal_settings_backup.txt
 
 Welcome to the CDT wiki!
 
-wget "https://raw.githubusercontent.com/TroyFletcher/vim-colors-synthwave/master/colors/synthwave.vim"
+sudo wget "https://raw.githubusercontent.com/TroyFletcher/vim-colors-synthwave/master/colors/synthwave.vim" -P ~/.vim/colors/
 
 ~/.vimrc
 
