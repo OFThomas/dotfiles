@@ -1,4 +1,7 @@
+Run on new install
 
+sudo add-apt-repository ppa:webupd8team/indicator-kdeconnect 
+sudo apt-get install indicator-kdeconnect kdeconnect
 
 gnome profile:
 
