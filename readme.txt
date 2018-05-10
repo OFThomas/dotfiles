@@ -3,6 +3,10 @@ Run on new install
 sudo add-apt-repository ppa:webupd8team/indicator-kdeconnect 
 sudo apt-get install indicator-kdeconnect kdeconnect
 
+Latex for vim and Linux
+
+sudo apt-get install texlive-full biber
+
 gnome profile:
 
 " Backup
