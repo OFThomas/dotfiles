@@ -14,7 +14,9 @@ dconf dump /org/gnome/terminal/ > gnome_terminal_settings_backup.txt
 " Load settings
 dconf load /org/gnome/terminal/ < gnome_terminal_settings_backup.txt
 
-" Vim
+" Vim 
+"paste with "+p 
+sudo apt-get install vim-gtk
 
 Welcome to the CDT wiki!
 
