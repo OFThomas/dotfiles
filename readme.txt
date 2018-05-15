@@ -3,6 +3,11 @@ Run on new install
 sudo add-apt-repository ppa:webupd8team/indicator-kdeconnect 
 sudo apt-get install indicator-kdeconnect kdeconnect
 
+Symengine
+add-apt-repository ppa:symengine/ppa
+apt-get update
+apt-get install libsymengine-dev
+
 Latex for vim and Linux
 
 sudo apt-get install texlive-full biber
