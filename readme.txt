@@ -6,7 +6,7 @@ sudo apt-get install indicator-kdeconnect kdeconnect
 Symengine
 add-apt-repository ppa:symengine/ppa
 apt-get update
-apt-get install libsymengine-dev
+apt-get install libsymengine-dev python-symengine  
 
 Latex for vim and Linux
 
