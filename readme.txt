@@ -4,9 +4,9 @@ sudo add-apt-repository ppa:webupd8team/indicator-kdeconnect
 sudo apt-get install indicator-kdeconnect kdeconnect
 
 Symengine
-add-apt-repository ppa:symengine/ppa
-apt-get update
-apt-get install libsymengine-dev python-symengine  
+sudo add-apt-repository ppa:symengine/ppa
+sudo apt-get update
+sudo apt-get install libsymengine-dev python-symengine  
 
 Latex for vim and Linux
 
