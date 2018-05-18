@@ -1,18 +1,21 @@
-Run on new install
-
+#run on new install
 sudo add-apt-repository ppa:webupd8team/indicator-kdeconnect 
 sudo apt-get install indicator-kdeconnect kdeconnect
 
-Symengine
+#install python jupyter notebooks
+sudo apt-get install -y python-pip pandoc python-setuptools
+sudo pip install jupyter
+
+#Symengine
 sudo add-apt-repository ppa:symengine/ppa
 sudo apt-get update
 sudo apt-get install libsymengine-dev python-symengine  
 
-Latex for vim and Linux
+#Latex for vim and Linux
 
 sudo apt-get install texlive-full biber
 
-gnome profile:
+#gnome profile:
 
 " Backup
 dconf dump /org/gnome/terminal/ > gnome_terminal_settings_backup.txt
