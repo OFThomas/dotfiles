@@ -13,3 +13,6 @@ sudo apt-get install texlive-full biber
 #Vim paste with "+p 
 sudo apt-get install vim-gtk
 sudo wget "https://raw.githubusercontent.com/TroyFletcher/vim-colors-synthwave/master/colors/synthwave.vim" -P ~/.vim/colors/
+#Okular & kde libs
+sudo apt-get install -y okular
+
