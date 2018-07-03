@@ -46,3 +46,13 @@ sudo sh -c 'dumpkeys |grep -v cr_Console |loadkeys'
 to remove annoying console changing with super and Alt keys
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+python portable, pyinstaller
+use 
+python3 -m pip install pyinstaller
+
+then
+sudo find / -name pyinstaller
+
+Then you can either run it using the full path or add it to your .bashrc file. To add to .bashrc, create the following line or add your path to any existing "export PATH=" line in your .bashrc (found in your home directory):
+
+export PATH="/path/to/pyinstaller:$PATH"
