@@ -6,7 +6,7 @@ sudo apt-get update
 sudo apt-get install -y build-essential
 
 #ubuntu stuff
-sudo apt-get install -y vim-gtk okular texlive-full biber screenfetch
+sudo apt-get install -y vim-gtk okular texlive biber screenfetch
 sudo apt-get install -y indicator-kdeconnect kdeconnect 
 
 #python3 stuff
@@ -39,5 +39,5 @@ sudo npm install -g write-good
 sudo npm install --global prettier
 
 #Vim theme paste with "+p 
-#sudo wget "https://raw.githubusercontent.com/TroyFletcher/vim-colors-synthwave/master/colors/synthwave.vim" -P ~/.vim/colors/
-
+sudo wget "https://raw.githubusercontent.com/TroyFletcher/vim-colors-synthwave/master/colors/synthwave.vim" -P ~/.vim/colors/
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
