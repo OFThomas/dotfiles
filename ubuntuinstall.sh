@@ -1,5 +1,5 @@
 sudo add-apt-repository ppa:symengine/ppa 
-sudo add-apt-repository ppa:webupd8team/indicator-kdeconnect 
+#sudo add-apt-repository ppa:webupd8team/indicator-kdeconnect 
 
 sudo apt-get update
 
@@ -39,5 +39,5 @@ sudo npm install -g write-good
 sudo npm install --global prettier
 
 #Vim theme paste with "+p 
-sudo wget "https://raw.githubusercontent.com/TroyFletcher/vim-colors-synthwave/master/colors/synthwave.vim" -P ~/.vim/colors/
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+#wget "https://raw.githubusercontent.com/TroyFletcher/vim-colors-synthwave/master/colors/synthwave.vim" -P ~/.vim/colors/
+#git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
