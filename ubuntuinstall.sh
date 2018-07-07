@@ -20,6 +20,8 @@ sudo apt-get install -y ipython3 pandoc python3-pip
 #pip 
 python3 -m pip install wheel
 python3 -m pip install --user projectq
+python -m pip install sympy
+
 
 #for notebooks
 #python3 -m pip install jupyter
