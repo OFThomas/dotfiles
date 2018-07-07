@@ -20,8 +20,8 @@ sudo apt-get install -y ipython3 pandoc python3-pip
 #pip 
 python3 -m pip install wheel
 python3 -m pip install --user projectq
-python -m pip install sympy
-
+python3 -m pip install sympy
+python3 -m pip install yapf
 
 #for notebooks
 #python3 -m pip install jupyter
@@ -34,6 +34,8 @@ sudo apt-get install python3-colorama python3-click python3-future
 sudo dpkg -i python3-proselint_0.7.0-1_all.deb
 sudo apt-get install flake8 
 sudo apt-get install -y autopep8
+sudo apt-get install -y pylint pyflakes
+
 
 #text linters
 sudo apt-get install npm
