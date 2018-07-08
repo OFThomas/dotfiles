@@ -30,8 +30,8 @@ set spell spelllang=en_gb
 colorscheme synthwave
 
 " ALE
-"let b:ale_linters = ['pyflakes', 'flake8', 'pylint', 'proselint', 'write-good', 'textlint' ]
-let g:ale_fixers = ['yapf', 'prettier', 'yapf', 'add_blank_lines_for_python_control_statements']
+let b:ale_linters = ['prospector', 'pyflakes', 'flake8', 'pylint', 'proselint', 'write-good', 'textlint' ]
+let b:ale_fixers = ['yapf', 'isort', 'prettier' ]
 
 
 let g:ale_fix_on_save = 1
@@ -46,6 +46,7 @@ let g:ale_echo_msg_error_str = 'E'
 let g:ale_echo_msg_warning_str = 'W'
 let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
 
+"let g:ale_echo_cursor = 0
 
 "no indenting
 "set nocindent
@@ -70,7 +71,3 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 "close vim if window manager is only window left
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-
-
-
-
