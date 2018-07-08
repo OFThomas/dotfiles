@@ -22,6 +22,8 @@ python3 -m pip install wheel
 python3 -m pip install --user projectq
 python3 -m pip install sympy
 python3 -m pip install yapf
+python3 -m pip install isort
+python3 -m pip install prospector
 
 #for notebooks
 #python3 -m pip install jupyter
