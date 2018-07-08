@@ -37,10 +37,10 @@ let b:ale_fixers = ['yapf', 'isort', 'prettier' ]
 let g:ale_fix_on_save = 1
 let g:ale_completion_enabled = 1
 let g:ale_sign_column_always = 1
-let g:ale_list_window_size = 5
+"let g:ale_list_window_size = 5
 
-let g:ale_set_loclist = 0
-let g:ale_set_quickfix = 1
+"let g:ale_set_loclist = 0
+"let g:ale_set_quickfix = 1
 
 let g:ale_echo_msg_error_str = 'E'
 let g:ale_echo_msg_warning_str = 'W'
@@ -61,7 +61,7 @@ let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
 "Key maps
 
 map <C-_> :NERDTreeToggle<CR>
-
+set clipboard=unnamedplus
 
 "Auto run
 
