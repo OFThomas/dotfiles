@@ -46,4 +46,10 @@ sudo npm install --global prettier
 
 #Vim theme paste with "+p 
 #wget "https://raw.githubusercontent.com/TroyFletcher/vim-colors-synthwave/master/colors/synthwave.vim" -P ~/.vim/colors/
-#git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+git clone https://github.com/vim/vim.git
+cd ./vim/src/
+make 
+sudo make install 
+
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
