@@ -19,6 +19,7 @@ sudo apt-get install -y python3-numpy python3-matplotlib python3-scipy python3-n
 sudo apt-get install -y libsymengine-dev python-symengine python3-sympy
 sudo apt-get install -y ipython3 pandoc 
 
+sudo apt-get install -y python3-isort
 #pip 
 python3 -m pip install wheel
 python3 -m pip install --user projectq
