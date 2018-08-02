@@ -11,6 +11,12 @@ Useful (only in emergency) Linux commands and settings.
 
 Installed Desktop Enviros ls /usr/share/xsessions/
 
+
+" VIM 
+
+autocmd FileType asm setlocal nospell
+
+
 add to ~/.bashrc
 screenfetch
 
