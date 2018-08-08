@@ -37,10 +37,6 @@ let b:ale_fixers = ['yapf', 'isort', 'prettier' ]
 let g:ale_fix_on_save = 1
 let g:ale_completion_enabled = 1
 let g:ale_sign_column_always = 1
-"let g:ale_list_window_size = 5
-
-"let g:ale_set_loclist = 0
-"let g:ale_set_quickfix = 1
 
 let g:ale_echo_msg_error_str = 'E'
 let g:ale_echo_msg_warning_str = 'W'
@@ -56,6 +52,18 @@ let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
 "filetype indent off 
 "filetype plugin indent off 
 
+let fortran_free_source=1
+let fortran_have_tabs=1
+let fortran_more_precise=1
+let fortran_do_enddo=1
+
+filetype plugin indent on
+" show existing tabs with 4 spaces width
+set tabstop=4
+" when indenting > use 4 spaces 
+set shiftwidth=4
+" tab inserts 4 spaces
+set expandtab
 
 "
 "Key maps
@@ -71,3 +79,7 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 "close vim if window manager is only window left
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+" no spell check for asm
+autocmd FileType asm setlocal nospell
+
