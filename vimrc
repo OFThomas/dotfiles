@@ -22,12 +22,30 @@ Plugin 'junegunn/fzf.vim'
 Plugin 'scrooloose/nerdtree'
 " ALE
 Plugin 'w0rp/ale'
+" status line at the bottom of vim
+Plugin 'vim-airline/vim-airline-themes'
+" themes for airline vim
+Plugin 'vim-airline/vim-airline'
+" tabs
+Plugin 'godlygeek/tabular'
+" indenting highlighting
+Plugin 'nathanaelkane/vim-indent-guides'
+" colour!
+Plugin 'flazz/vim-colorschemes'
+" jedi autocomplete for python?
+Plugin 'davidhalter/jedi-vim'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
 set number
-set spell spelllang=en_gb
-colorscheme synthwave
+"set spell spelllang=en_gb
+"colorscheme synthwave
+"colorscheme 0x7A69_dark
+"colorscheme mod8
+colorscheme monochrome
+
+"colorscheme brogrammer
+"colorscheme codeschool
 
 " ALE
 let b:ale_linters = ['prospector', 'pyflakes', 'flake8', 'pylint', 'proselint', 'write-good', 'textlint' ]
@@ -81,5 +99,5 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " no spell check for asm
-autocmd FileType asm setlocal nospell
+autocmd FileType txt setlocal spell
 
