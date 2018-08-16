@@ -34,6 +34,8 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'flazz/vim-colorschemes'
 " jedi autocomplete for python?
 Plugin 'davidhalter/jedi-vim'
+"falcon theme
+Plugin 'fenetikm/falcon'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
@@ -42,10 +44,22 @@ set number
 "colorscheme synthwave
 "colorscheme 0x7A69_dark
 "colorscheme mod8
-colorscheme monochrome
-
+"colorscheme jiks
 "colorscheme brogrammer
 "colorscheme codeschool
+"colorscheme monochrome
+"colorscheme inkpot 
+"colorscheme inori
+"colorscheme iceberg
+"colorscheme ironman
+"colorscheme itg_flat
+
+"colorscheme landscape
+"colorscheme madeofcode
+"colorscheme mango
+"colorscheme mellow
+"colorscheme falcon
+colorscheme ir_black 
 
 " ALE
 let b:ale_linters = ['prospector', 'pyflakes', 'flake8', 'pylint', 'proselint', 'write-good', 'textlint' ]
