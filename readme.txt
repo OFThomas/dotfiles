@@ -16,6 +16,9 @@ Installed Desktop Enviros ls /usr/share/xsessions/
 
 autocmd FileType asm setlocal nospell
 
+" default editor
+sudo update-alternatives --config editor
+
 
 add to ~/.bashrc
 screenfetch
