@@ -48,21 +48,35 @@ set number
 "colorscheme brogrammer
 "colorscheme codeschool
 "colorscheme monochrome
-"colorscheme inkpot 
 "colorscheme inori
 "colorscheme iceberg
 "colorscheme ironman
 "colorscheme itg_flat
 
-"colorscheme landscape
 "colorscheme madeofcode
 "colorscheme mango
 "colorscheme mellow
 "colorscheme falcon
+"colorscheme neutron
+"colorscheme neonwave
+"colorscheme neverland-darker
+
+"colorscheme nightsky 
+"colorscheme neverland2
+
+
+"colorscheme landscape
+"colorscheme inkpot 
 colorscheme ir_black 
 
+set t_Co=256
+
+" vim location list
+"let g:lopen 2
+
+
 " ALE
-let b:ale_linters = ['prospector', 'pyflakes', 'flake8', 'pylint', 'proselint', 'write-good', 'textlint' ]
+let b:ale_linters = ['prospector', 'pyflakes', 'flake8', 'pylint', 'proselint', 'write-good', 'textlint', 'chktex' ]
 let b:ale_fixers = ['yapf', 'isort', 'prettier' ]
 
 
@@ -73,7 +87,7 @@ let g:ale_sign_column_always = 1
 let g:ale_echo_msg_error_str = 'E'
 let g:ale_echo_msg_warning_str = 'W'
 let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
-
+"let g:ale_open_list=1
 "let g:ale_echo_cursor = 0
 
 "no indenting
@@ -114,4 +128,3 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 " no spell check for asm
 autocmd FileType txt setlocal spell
-
