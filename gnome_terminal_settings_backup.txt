@@ -19,21 +19,6 @@ background-color='rgb(0,0,0)'
 background-transparency-percent=-93
 audible-bell=false
 
-[legacy/profiles:/:aa1c04ff-df1a-4f46-994b-4221bfc1c214]
-foreground-color='rgb(255,255,255)'
-visible-name='mono'
-palette=['#444447475a5a', '#ffff55555555', '#5050fafa7b7b', '#ffffb8b86c6c', '#8b8be9e9fdfd', '#bdbd9393f9f9', '#ffff7979c6c6', '#9494A3A3A5A5', '#000000000000', '#ffff55555555', '#5050fafa7b7b', '#ffffb8b86c6c', '#8b8be9e9fdfd', '#bdbd9393f9f9', '#ffff7979c6c6', '#ffffffffffff']
-cursor-shape='block'
-use-system-font=false
-use-theme-colors=false
-font='Monospace 11'
-use-theme-transparency=true
-bold-color-same-as-fg=true
-bold-color='#9494A3A3A5A5'
-background-color='rgb(0,0,0)'
-background-transparency-percent=0
-audible-bell=false
-
 [legacy/profiles:/:e3aee522-55f3-4492-8d9f-a5cc76586a9f]
 foreground-color='#7373D2D21616'
 scrollback-lines=512
@@ -65,6 +50,24 @@ background-transparency-percent=-93
 cursor-blink-mode='system'
 audible-bell=false
 
+[legacy/profiles:/:aa1c04ff-df1a-4f46-994b-4221bfc1c214]
+foreground-color='rgb(255,255,255)'
+visible-name='mono'
+palette=['rgb(68,71,90)', 'rgb(255,85,85)', 'rgb(80,250,123)', 'rgb(255,184,108)', 'rgb(139,233,253)', 'rgb(189,147,249)', 'rgb(255,121,198)', 'rgb(148,163,165)', 'rgb(0,0,0)', 'rgb(255,85,85)', 'rgb(80,250,123)', 'rgb(255,184,108)', 'rgb(0,160,194)', 'rgb(189,147,249)', 'rgb(255,121,198)', 'rgb(255,255,255)']
+bold-is-bright=true
+cursor-shape='block'
+cursor-colors-set=false
+highlight-colors-set=false
+use-system-font=false
+use-theme-colors=false
+font='Monospace 11'
+use-theme-transparency=true
+bold-color-same-as-fg=true
+bold-color='#9494A3A3A5A5'
+background-color='rgb(0,0,0)'
+background-transparency-percent=0
+audible-bell=false
+
 [legacy/profiles:/:0b67b12f-4cec-4d7f-858d-e8bda515076d]
 foreground-color='rgb(255,255,255)'
 visible-name='Twilight'
@@ -76,22 +79,6 @@ bold-color-same-as-fg=true
 bold-color='#ffffffffd4d4'
 background-color='rgb(0,0,0)'
 background-transparency-percent=0
-
-[legacy/profiles:/:685e1cbf-706e-4454-8603-40838555ecac]
-foreground-color='#CCCCCCCCCCCC'
-visible-name='Tomorrow Night Eighties'
-palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(133,153,0)', 'rgb(181,137,0)', 'rgb(38,139,210)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(238,232,213)', 'rgb(0,43,54)', 'rgb(203,75,22)', 'rgb(88,110,117)', 'rgb(101,123,131)', 'rgb(131,148,150)', 'rgb(108,113,196)', 'rgb(147,161,161)', 'rgb(253,246,227)']
-cursor-shape='block'
-use-system-font=false
-use-theme-colors=true
-font='Monospace 11'
-use-theme-transparency=true
-use-theme-background=false
-bold-color-same-as-fg=true
-bold-color='#FFFFFEFEFEFE'
-background-color='#2C2C2C2C2C2C'
-background-transparency-percent=0
-audible-bell=false
 
 [legacy/profiles:/:ca0ef563-fa31-4df0-9c49-5113d431b47a]
 foreground-color='rgb(128,188,196)'
@@ -109,25 +96,29 @@ background-color='#28282a2a3636'
 background-transparency-percent=0
 audible-bell=false
 
-[legacy/profiles:/:ca413ad6-4a72-4d3f-963d-b0cc45648328]
-foreground-color='rgb(131,148,150)'
-visible-name='Oceanic Next'
-palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(133,153,0)', 'rgb(181,137,0)', 'rgb(38,139,210)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(238,232,213)', 'rgb(0,43,54)', 'rgb(203,75,22)', 'rgb(88,110,117)', 'rgb(101,123,131)', 'rgb(131,148,150)', 'rgb(108,113,196)', 'rgb(147,161,161)', 'rgb(253,246,227)']
+[legacy/profiles:/:f2621a90-daaf-4b93-87d2-5b0d008c4ca2]
+foreground-color='rgb(255,255,255)'
+visible-name='orange'
+palette=['rgb(68,71,90)', 'rgb(255,85,85)', 'rgb(80,250,123)', 'rgb(255,184,108)', 'rgb(139,233,253)', 'rgb(189,147,249)', 'rgb(255,121,198)', 'rgb(148,163,165)', 'rgb(0,0,0)', 'rgb(255,64,64)', 'rgb(247,255,160)', 'rgb(255,171,82)', 'rgb(255,113,32)', 'rgb(255,138,2)', 'rgb(0,255,7)', 'rgb(255,255,255)']
+bold-is-bright=true
+cursor-background-color='rgb(255,138,30)'
 cursor-shape='block'
+cursor-colors-set=false
+highlight-colors-set=false
 use-system-font=false
-use-theme-colors=true
+use-theme-colors=false
+cursor-foreground-color='rgb(255,255,255)'
 font='Monospace 11'
 use-theme-transparency=true
-use-theme-background=false
-bold-color-same-as-fg=false
-bold-color='#CDD3DE'
-background-color='rgb(0,43,54)'
+bold-color-same-as-fg=true
+bold-color='#9494A3A3A5A5'
+background-color='rgb(0,0,0)'
 background-transparency-percent=0
 audible-bell=false
 
 [legacy/profiles:]
-list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', 'c5f19730-4c83-4fca-9189-f69ab1e9331d', '0b67b12f-4cec-4d7f-858d-e8bda515076d', '26010613-348f-40b5-a408-1e81bef03bd2', 'ca0ef563-fa31-4df0-9c49-5113d431b47a', 'aa1c04ff-df1a-4f46-994b-4221bfc1c214']
-default='aa1c04ff-df1a-4f46-994b-4221bfc1c214'
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', 'c5f19730-4c83-4fca-9189-f69ab1e9331d', '0b67b12f-4cec-4d7f-858d-e8bda515076d', '26010613-348f-40b5-a408-1e81bef03bd2', 'ca0ef563-fa31-4df0-9c49-5113d431b47a', 'aa1c04ff-df1a-4f46-994b-4221bfc1c214', 'f2621a90-daaf-4b93-87d2-5b0d008c4ca2']
+default='f2621a90-daaf-4b93-87d2-5b0d008c4ca2'
 
 [legacy/profiles:/:26010613-348f-40b5-a408-1e81bef03bd2]
 foreground-color='#f8f8f8f8f2f2'
