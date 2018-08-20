@@ -1,0 +1,16 @@
+FILE=$1
+gnuplot << EOF 
+plot '$FILE' 
+set xlabel 'Freq'
+set ylabel 'F()'
+set grid
+set term dumb
+replot 
+set term wxt
+replot
+EOF 
+
+
+# loop over cols
+
+plot for [i=1:18] "numbers.dat" using (column(2*(i-1)+1)):(column(2*i))
