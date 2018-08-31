@@ -7,7 +7,7 @@ sudo apt-get update
 sudo apt-get install -y build-essential
 
 #ubuntu stuff
-sudo apt-get install -y vim
+sudo apt-get install -y vim vim-gtk3
 sudo apt-get install -y okular texlive biber screenfetch
 sudo apt-get install -y indicator-kdeconnect kdeconnect 
 
