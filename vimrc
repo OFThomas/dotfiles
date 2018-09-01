@@ -78,16 +78,6 @@ let g:ale_echo_msg_error_str = 'E'
 let g:ale_echo_msg_warning_str = 'W'
 let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
 
-"let g:ale_echo_cursor = 0
-
-"no indenting
-"set nocindent
-"set nosmartindent
-"set noautoindent
-"set indentexpr=
-"filetype indent off 
-"filetype plugin indent off 
-
 let fortran_free_source=1
 let fortran_have_tabs=1
 let fortran_more_precise=1
@@ -102,6 +92,27 @@ set shiftwidth=4
 set expandtab
 
 "
+" vimtex
+"
+"let g:tex_flavor = 'latex'
+let g:vimtex_complete_enabled = 1
+"let g:vimtex_compiler_method = 'latexmk'
+let g:vimtex_fold_enabled = 1
+let g:vimtex_view_method = 'skim'
+let g_vimtex_motion_enabled = 1
+let g:vimtex_compiler_latexmk = {
+    \ 'options' : [
+    \   '-pdf',
+    \   '-shell-escape',
+    \   '-verbose',
+    \   '-file-line-error',
+    \   '-synctex=1',
+    \   '-interaction=nonstopmode',
+    \ ],
+    \}
+
+"
+""
 "Key maps
 
 map <C-_> :NERDTreeToggle<CR>
