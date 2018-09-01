@@ -99,7 +99,7 @@ let g:vimtex_complete_enabled = 1
 "let g:vimtex_compiler_method = 'latexmk'
 let g:vimtex_fold_enabled = 1
 let g:vimtex_view_method = 'skim'
-let g_vimtex_motion_enabled = 1
+"let g_vimtex_motion_enabled = 1
 let g:vimtex_compiler_latexmk = {
     \ 'options' : [
     \   '-pdf',
