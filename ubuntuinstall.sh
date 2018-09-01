@@ -10,6 +10,11 @@ sudo apt-get install -y build-essential
 sudo apt-get install -y vim vim-gtk3
 sudo apt-get install -y okular texlive biber screenfetch
 sudo apt-get install -y indicator-kdeconnect kdeconnect 
+sudo apt-get install -y gnuplot 
+
+# slack install
+sudo apt-get install -y snapd
+sudo snap install slack --classic
 
 #python3 stuff
 #sudo apt-get install -y python3 python3-dev 
@@ -34,7 +39,7 @@ python3 -m pip install isort
 #python3 -m pip install jupyter
 
 #sudo add-apt-repository universe
-sudo apt install python3-proselint
+sudo apt install -y python3-proselint
 
 #python linters
 sudo apt-get install -y python3-colorama python3-click python3-future 
