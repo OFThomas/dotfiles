@@ -44,7 +44,7 @@ Plugin 'tpope/vim-speeddating'
 call vundle#end()            " required
 
 set number
-set spell spelllang=en_gb
+"set spell spelllang=en_gb
 set tw=89
 "colorscheme synthwave
 "colorscheme 0x7A69_dark
@@ -64,7 +64,8 @@ set tw=89
 "colorscheme mango
 "colorscheme mellow
 "colorscheme falcon
-colorscheme ir_black 
+"colorscheme ir_black 
+colorscheme darkspectrum
 
 " ALE
 let b:ale_linters = ['prospector', 'pyflakes', 'flake8', 'pylint', 'proselint', 'textlint' ]
