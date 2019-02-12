@@ -12,7 +12,6 @@ Plugin 'VundleVim/Vundle.vim'
 " "latex
 Plugin 'lervag/vimtex' 
 "Plugin 'vim-syntastic/syntastic'
-
 Plugin 'maxboisvert/vim-simple-complete'
 Plugin 'tpope/vim-sensible'
 " fuzzy file search
@@ -81,6 +80,12 @@ let g:ale_echo_msg_error_str = 'E'
 let g:ale_echo_msg_warning_str = 'W'
 let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
 
+let g:ale_set_quickfix = 1
+let g:ale_open_list = 1
+" default is 10
+let g:ale_list_window_size = 5
+
+
 let fortran_free_source=1
 let fortran_have_tabs=1
 let fortran_more_precise=1
@@ -133,3 +138,5 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " no spell check for asm
 autocmd FileType txt setlocal spell
 
+" use Rpdf on.pdf to view in vim
+:command! -complete=file -nargs=1 Rpdf :r !pdftotext -nopgbrk <q-args> - |fmt -csw78
