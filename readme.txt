@@ -19,6 +19,11 @@ autocmd FileType asm setlocal nospell
 " default editor
 sudo update-alternatives --config editor
 
+" loclist
+:lop to open
+:lcl to close 
+:lne next item
+:lpr previous item
 
 add to ~/.bashrc
 screenfetch
