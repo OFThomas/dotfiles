@@ -67,9 +67,9 @@ set tw=89
 colorscheme darkspectrum
 
 " ALE
-let b:ale_linters = ['prospector', 'pyflakes', 'flake8', 'pylint', 'proselint', 'textlint' ]
+let b:ale_linters = ['prospector', 'pyflakes', 'flake8', 'pylint', 'proselint', 'textlint', 'clang', 'clangcheck', 'clangtidy', 'clazy', 'cppcheck', 'cpplint', 'gcc' ]
 "let b:ale_linters = ['prospector', 'pyflakes', 'flake8', 'pylint', 'proselint', 'write-good', 'textlint' ]
-let b:ale_fixers = ['yapf', 'isort', 'prettier' ]
+let b:ale_fixers = ['yapf', 'isort', 'prettier', 'clang-format', 'uncrustify' ]
 
 
 let g:ale_fix_on_save = 1
