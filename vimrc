@@ -45,7 +45,8 @@ call vundle#end()            " required
 set number
 "set spell spelllang=en_gb
 set tw=89
-"colorscheme synthwave
+
+colorscheme synthwave
 "colorscheme 0x7A69_dark
 "colorscheme mod8
 "colorscheme jiks
@@ -64,7 +65,7 @@ set tw=89
 "colorscheme mellow
 "colorscheme falcon
 "colorscheme ir_black 
-colorscheme darkspectrum
+"colorscheme darkspectrum
 
 " ALE
 let b:ale_linters = ['prospector', 'pyflakes', 'flake8', 'pylint', 'proselint', 'textlint', 'clang', 'clangcheck', 'clangtidy', 'clazy', 'cppcheck', 'cpplint', 'gcc' ]
