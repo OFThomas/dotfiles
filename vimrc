@@ -46,7 +46,10 @@ set number
 "set spell spelllang=en_gb
 set tw=89
 
-colorscheme synthwave
+"colorscheme synthwave
+colorscheme monokai-phoenix
+
+
 "colorscheme 0x7A69_dark
 "colorscheme mod8
 "colorscheme jiks
