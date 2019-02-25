@@ -46,9 +46,13 @@ set number
 "set spell spelllang=en_gb
 set tw=89
 
+colorscheme hashpunk
+"colorscheme hashpunk-sw
 "colorscheme synthwave
-colorscheme monokai-phoenix
-
+"colorscheme monokai-phoenix
+"colorscheme cobalt
+"colorscheme cobalt2
+"colorscheme fx
 
 "colorscheme 0x7A69_dark
 "colorscheme mod8
