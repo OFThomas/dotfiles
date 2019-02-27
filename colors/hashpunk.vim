@@ -36,6 +36,7 @@ let s:Grey66 = ['248', '#a8a8a8']
 let s:Grey74 = ['250', '#bcbcbc']
 let s:Grey93 = ['255', '#eeeeee']
 
+
 " Text style 
 let s:italic      =   'italic'
 let s:bold        =   'bold'
@@ -149,6 +150,10 @@ call s:highlight('NERDTreeOpenable', s:RadicalRed1, s:clear, s:none)
 " The following groups are plug specific and would require the following plugs
 " from github in order for the groups to work.
 "
+
+" ALE
+call s:highlight('ALEError', s:RadicalRed2, s:clear, s:bold)
+call s:highlight('ALEWarning', s:Magenta2, s:clear, s:none)
 
 " Elm syntax highlighting
 " Requires plug: ElmCast/Magenta2-vim
