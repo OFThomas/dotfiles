@@ -152,7 +152,7 @@ call s:highlight('NERDTreeOpenable', s:RadicalRed1, s:clear, s:none)
 "
 
 " ALE
-call s:highlight('ALEError', s:RadicalRed2, s:clear, s:bold)
+call s:highlight('ALEError', s:Purple4, s:clear, s:bold)
 call s:highlight('ALEWarning', s:Magenta2, s:clear, s:none)
 
 " Elm syntax highlighting
