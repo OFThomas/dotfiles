@@ -158,16 +158,12 @@ call s:highlight('NERDTreeOpenable', s:RadicalRed1, s:clear, s:none)
 "
 
 " ALE
-<<<<<<< HEAD
 "call s:highlight('ALEError', s:RadicalRed2, s:clear, s:bold)
+"call s:highlight('ALEError', s:Purple4, s:clear, s:bold)
 "call s:highlight('ALEWarning', s:Magenta2, s:clear, s:none)
 
 call s:highlight('ALEError', s:Aqua, s:clear, s:bold)
 call s:highlight('ALEWarning', s:Aqua, s:clear, s:none)
-=======
-call s:highlight('ALEError', s:Purple4, s:clear, s:bold)
-call s:highlight('ALEWarning', s:Magenta2, s:clear, s:none)
->>>>>>> b936cf82032be496431325e94a88c5cccd94f0bf
 
 " Elm syntax highlighting
 " Requires plug: ElmCast/Magenta2-vim
