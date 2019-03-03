@@ -26,6 +26,13 @@ let s:DeepSkyBlue3 = ['31', '#0087af']
 let s:RadicalRed1 = ['197', '#ff3366']
 let s:RadicalRed2 = ['198', '#fe0040']
 
+"let s:Aqua = ['14', '#00ffff']
+"let s:Aqua = ['51', '#00ffff']
+"let s:Aqua = ['46', '#00ff00']
+"let s:Aqua = ['82', '#5fff00']
+let s:Orange = ['208', '#ff8700']
+let s:Aqua = ['81', '#5fd7ff']
+
 let s:Grey0 = ['16', '#000000']
 let s:Grey7 = ['233', '#121212']
 let s:Grey15 = ['235', '#262626']
@@ -35,7 +42,6 @@ let s:Grey54 = ['245', '#505050']
 let s:Grey66 = ['248', '#a8a8a8']
 let s:Grey74 = ['250', '#bcbcbc']
 let s:Grey93 = ['255', '#eeeeee']
-
 
 " Text style 
 let s:italic      =   'italic'
@@ -152,8 +158,11 @@ call s:highlight('NERDTreeOpenable', s:RadicalRed1, s:clear, s:none)
 "
 
 " ALE
-call s:highlight('ALEError', s:RadicalRed2, s:clear, s:bold)
-call s:highlight('ALEWarning', s:Magenta2, s:clear, s:none)
+"call s:highlight('ALEError', s:RadicalRed2, s:clear, s:bold)
+"call s:highlight('ALEWarning', s:Magenta2, s:clear, s:none)
+
+call s:highlight('ALEError', s:Aqua, s:clear, s:bold)
+call s:highlight('ALEWarning', s:Aqua, s:clear, s:none)
 
 " Elm syntax highlighting
 " Requires plug: ElmCast/Magenta2-vim
